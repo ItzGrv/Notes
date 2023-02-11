@@ -10,30 +10,25 @@ Let us understand how the Rest Assured Works
 HTTP Request 
 
 An HTTP request consists of the following
-￼
 
-URL
+1. URL
 
 The Request URL is the unique address used to make a request. URL consists of the Base URL, Resource, Query, or Path Parameters.
 Example: https://reqres.in/api/users/2
 
-Base URL
+2. Base URL
 It is the Base Address for the particular API.
-￼
-Resource
+
+3. Resource
 A Resource represents the collection that can be accessed from the server.
-￼
-Path Parameter
+
+4. Path Parameter
 The Path parameter is the variable part of a URL. It is used to point to a particular resource within a collection, such as a user with a specific ID. In Path Parameter we move to the sub-resource.
-￼
-Query Parameter
+
+5. Query Parameter
 Query Parameters are optional parameters. It is used to sort/filter the resource. For appending query parameter ‘?’ is added to the end of the URL and implemented as a key-value pair. For Appending multiple query parameters ‘&’ is used in between the key-value pairs.
-￼
 
-
-
-HTTP Method/Verb
-
+6. HTTP Method/Verb
 The four basic Create, Read, Update and Delete (CRUD) operations are performed using the POST, GET, PUT and DELETE methods in the REST interface.
 
 POST: This Verb is used to create a new resource on a server.
@@ -45,22 +40,16 @@ PUT or PATCH: Both PUT and PATCH Verbs are used to update a resource on a server
 DELETE: This Verb is used to delete a resource from a server.
 
 
-Headers
-
+7. Headers
 Headers represent the meta-data associated with HTTP requests or responses. It is the additional information that is passed between client and server along with the request or response. Headers are used for several purposes, such as authentication, caching, messaging body information, handling cookies, etc. Headers will be key-value pairs or can be a key with multiple values.
 
-Payload/Body
-
+8. Payload/Body
 The Payload/Body contains the information that the user wants to send to the server. The payload is used only with the requests that alter the existing resource or create new ones.
 
-HTTP Response
-
-
-The HTTP Response consists of the status code, Headers and Response body
-￼
+9. HTTP Response
+The HTTP Response consists of the status code, Headers and Response body.
 
 As we already discussed Headers and Body we will focus on Status Codes
-
 Status Codes : HTTP status codes help us to understand the status of the response quickly.
 
 100–199: Informational: The request received and process continuing
