@@ -1,0 +1,70 @@
+What is REST ASSURED and How it works ?
+
+REST stands for REpresentational State Transfer. REST Assured is a java library used for testing and validating the Restful Web Services. It supports Behavior-Driven Development(BDD) syntax like Given, When, and Then notations.
+
+Let us understand how the Rest Assured Works
+* 		Create an HTTP request with all the details
+* 		Send the request over the network
+* 		Validate the received Response
+
+HTTP Request 
+
+An HTTP request consists of the following
+￼
+
+URL
+
+The Request URL is the unique address used to make a request. URL consists of the Base URL, Resource, Query, or Path Parameters.
+Example: https://reqres.in/api/users/2
+
+Base URL
+It is the Base Address for the particular API.
+￼
+Resource
+A Resource represents the collection that can be accessed from the server.
+￼
+Path Parameter
+The Path parameter is the variable part of a URL. It is used to point to a particular resource within a collection, such as a user with a specific ID. In Path Parameter we move to the sub-resource.
+￼
+Query Parameter
+Query Parameters are optional parameters. It is used to sort/filter the resource. For appending query parameter ‘?’ is added to the end of the URL and implemented as a key-value pair. For Appending multiple query parameters ‘&’ is used in between the key-value pairs.
+￼
+
+
+
+HTTP Method/Verb
+
+The four basic Create, Read, Update and Delete (CRUD) operations are performed using the POST, GET, PUT and DELETE methods in the REST interface.
+
+POST: This Verb is used to create a new resource on a server.
+
+GET: This Verb is used to get or read data from a server.
+
+PUT or PATCH: Both PUT and PATCH Verbs are used to update a resource on a server. The PUT method is used to update the record entirely. The PATCH method is used to update the record partially instead of updating the entire resource.
+
+DELETE: This Verb is used to delete a resource from a server.
+
+
+Headers
+
+Headers represent the meta-data associated with HTTP requests or responses. It is the additional information that is passed between client and server along with the request or response. Headers are used for several purposes, such as authentication, caching, messaging body information, handling cookies, etc. Headers will be key-value pairs or can be a key with multiple values.
+
+Payload/Body
+
+The Payload/Body contains the information that the user wants to send to the server. The payload is used only with the requests that alter the existing resource or create new ones.
+
+HTTP Response
+
+
+The HTTP Response consists of the status code, Headers and Response body
+￼
+
+As we already discussed Headers and Body we will focus on Status Codes
+
+Status Codes : HTTP status codes help us to understand the status of the response quickly.
+
+100–199: Informational: The request received and process continuing
+200–299: Success: The request succeeded
+300–399: Redirection: The request is redirecting to another URL
+400–499: Client Error: An error occurred from client-side
+500–599: Server Error: An error occurred from the server-side
