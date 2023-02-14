@@ -1,0 +1,77 @@
+What is Java?
+
+Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+
+Java Platforms / Editions
+
+There are 4 platforms or editions of Java:
+
+1) Java SE (Java Standard Edition)
+It is a Java programming platform. It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. It includes core topics like OOPs, String, Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
+
+2) Java EE (Java Enterprise Edition)
+It is an enterprise platform that is mainly used to develop web and enterprise applications. It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.
+
+3) Java ME (Java Micro Edition)
+It is a micro platform that is dedicated to mobile applications.
+
+4) JavaFX
+It is used to develop rich internet applications. It uses a lightweight user interface API.
+
+Features of Java
+The primary objective of Java programming language creation was to make it portable, simple and secure programming language. Apart from this, there are also some excellent features which play an important role in the popularity of this language. 
+
+Simple
+Java is very easy to learn, and its syntax is simple, clean and easy to understand. According to Sun Microsystem, Java language is a simple programming language because:
+Java syntax is based on C++ (so easier for programmers to learn it after C++).
+Java has removed many complicated and rarely-used features, for example, explicit pointers, operator overloading, etc.
+There is no need to remove unreferenced objects because there is an Automatic Garbage Collection in Java.
+
+Object-oriented
+Java is an object-oriented programming language. Everything in Java is an object. Object-oriented means we organize our software as a combination of different types of objects that incorporate both data and behavior.
+Object-oriented programming (OOPs) is a methodology that simplifies software development and maintenance by providing some rules.
+Basic concepts of OOPs are:
+
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
+
+A class is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type. 
+
+Modifiers: A class can be public or have default access (Refer to this for details).
+Class name: The class name should begin with the initial letter capitalized by convention.
+Superclass (if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+Interfaces (if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+Body: The class body is surrounded by braces, { }.
+
+An object is a basic unit of Object-Oriented Programming that represents real-life entities. A typical Java program creates many objects, which as you know, interact by invoking methods. The objects are what perform your code, they are the part of your code visible to the viewer/user. An object mainly consists of: 
+State: It is represented by the attributes of an object. It also reflects the properties of an object.
+Behavior: It is represented by the methods of an object. It also reflects the response of an object to other objects.
+Identity: It is a unique name given to an object that enables it to interact with other objects.
+Method: A method is a collection of statements that perform some specific task and return the result to the caller. A method can perform some specific task without returning anything. Methods allow us to reuse the code without retyping it, which is why they are considered time savers. In Java, every method must be part of some class, which is different from languages like C, C++, and Python. 
+
+Abstraction is the property by virtue of which only the essential details are displayed to the user. The trivial or non-essential units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object, ignoring the irrelevant details. The properties and behaviors of an object differentiate it from other objects of similar type and also help in classifying/grouping the object.
+
+Encapsulation 
+It is defined as the wrapping up of data under a single unit. It is the mechanism that binds together the code and the data it manipulates. Another way to think about encapsulation is that it is a protective shield that prevents the data from being accessed by the code outside this shield. 
+Technically, in encapsulation, the variables or the data in a class is hidden from any other class and can be accessed only through any member function of the class in which they are declared.
+In encapsulation, the data in a class is hidden from other classes, which is similar to what data-hiding does. So, the terms “encapsulation” and “data-hiding” are used interchangeably.
+Encapsulation can be achieved by declaring all the variables in a class as private and writing public methods in the class to set and get the values of the variables.
+
+Inheritance
+It is an important pillar of OOP (Object Oriented Programming). It is the mechanism in Java by which one class is allowed to inherit the features (fields and methods) of another class. 
+
+Let us discuss some frequently used important terminologies:
+Superclass: The class whose features are inherited is known as superclass (also known as base or parent class).
+Subclass: The class that inherits the other class is known as subclass (also known as derived or extended or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+It refers to the ability of object-oriented programming languages to differentiate between entities with the same name efficiently. This is done by Java with the help of the signature and declaration of these entities.
+
+Note: Polymorphism in Java is mainly of 2 types: 
+1. Overloading
+2. Overriding 
+
