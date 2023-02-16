@@ -75,3 +75,20 @@ Note: Polymorphism in Java is mainly of 2 types:
 1. Overloading
 2. Overriding 
 
+Method in Java or Java Method is a collection of statements that perform some specific task and return the result to the caller. A Java method can perform some specific task without returning anything. Methods in Java allow us to reuse the code without retyping the code. In Java, every method must be part of some class that is different from languages like C, C++, and Python. 
+1. A method is like function i.e. used to expose behavior of an object.
+2. it is a set of codes that perform a particular task.
+
+Advantage of Method
+1. Code Reusability
+2. Code Optimization
+
+Types of Methods in Java
+
+There are two types of methods in Java:
+1. Predefined Method: In Java, predefined methods are the method that is already defined in the Java class libraries is known as predefined methods. It is also known as the standard library method or built-in method. We can directly use these methods just by calling them in the program at any point. 
+2. User-defined Method: The method written by the user or programmer is known as a user-defined method. These methods are modified according to the requirement.
+
+Method Signature
+
+It consists of the method name and a parameter list (number of parameters, type of the parameters, and order of the parameters). The return type and exceptions are not considered as part of it. 
