@@ -1,0 +1,11 @@
+Pre requisite -
+
+1. Download gradle in your machine. Check version by using below command in terminal 
+    gradle -v
+
+2. Download Videogame API from https://github.com/james-willett/VideoGameDB and store it in a folder names as VideoGameDb.
+
+3. Go to VideogameDB folder created and open terminal to run below command to bring the APIs up
+    gradlew bootrun
+
+4. Go to http://localhost:8080/swagger-ui/index.html#/ to learn about APIs
