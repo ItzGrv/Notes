@@ -1,9 +1,16 @@
-import io.res
+package com.videogame;
 
-public class VideogameAPITest {
+import io.restassured.response.Response;
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class VideoGameAPITest {
     
     @Test
     public void test_getAllVideoGames() {
-        given()
+        Response response = given().when().get("http://localhost:8080/app/videogames");
+        response.then().statusCode(200);
+        System.out.println(response.getBody().asPrettyString());
     }
 }

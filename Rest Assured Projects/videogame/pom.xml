@@ -4,6 +4,10 @@
   <groupId>com.videogame</groupId>
   <artifactId>videogame</artifactId>
   <packaging>jar</packaging>
+  <properties>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
   <version>1.0</version>
   <name>videogame</name>
   <url>http://maven.apache.org</url>
@@ -16,12 +20,14 @@
     </dependency>
 
 
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
     <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
-      <version>5.3.0</version>
-      <type>bundle</type>
+      <version>5.2.0</version>
+      <scope>test</scope>
     </dependency>
-    
+
+
   </dependencies>
 </project>

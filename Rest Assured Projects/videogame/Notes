@@ -6,6 +6,6 @@ Pre requisite -
 2. Download Videogame API from https://github.com/james-willett/VideoGameDB and store it in a folder names as VideoGameDb.
 
 3. Go to VideogameDB folder created and open terminal to run below command to bring the APIs up
-    gradlew bootrun
+    gradlew bootRun
 
 4. Go to http://localhost:8080/swagger-ui/index.html#/ to learn about APIs
