@@ -1,0 +1,82 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677287813.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items":{
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "releaseDate",
+      "reviewScore",
+      "category",
+      "rating"
+    ],
+    "properties": {
+      "id": {
+        "$id": "#root/items/id",
+        "title": "Id",
+        "type": "integer",
+        "examples": [
+          0
+        ],
+        "default": 0
+      },
+      "name": {
+        "$id": "#root/items/name",
+        "title": "Name",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "releaseDate": {
+        "$id": "#root/items/releaseDate",
+        "title": "Releasedate",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "2023-02-25T00:10:18.154Z"
+        ],
+        "pattern": "^.*$"
+      },
+      "reviewScore": {
+        "$id": "#root/items/reviewScore",
+        "title": "Reviewscore",
+        "type": "integer",
+        "examples": [
+          0
+        ],
+        "default": 0
+      },
+      "category": {
+        "$id": "#root/items/category",
+        "title": "Category",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      },
+      "rating": {
+        "$id": "#root/items/rating",
+        "title": "Rating",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "string"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+
+}
